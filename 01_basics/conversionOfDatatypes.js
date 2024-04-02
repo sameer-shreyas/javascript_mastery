@@ -22,5 +22,25 @@ let boolenIsLoggedIn =  Boolean(isLoggedIn)
 let age = true
 let strAge = String(age)
 
-console.log(typeof strAge);
-console.log(strAge);
+// console.log(typeof strAge);
+// console.log(strAge);
+
+// console.log(2+2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/2);
+// console.log(2%2);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1"+ 2 + 2);
+// console.log(2 + 2 + "1");
+
+// console.log(+"");
+
+// postfix and prefix incremental operator.
+let a = 5
+let b = ++a;
+let c = a++;
+console.log(b);
+console.log(c);
