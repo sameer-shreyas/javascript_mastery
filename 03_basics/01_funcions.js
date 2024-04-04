@@ -9,11 +9,11 @@ function sayMyName() {
 
 // sayMyName()
 
-function addTwoNum(number1, number2){
-    return number1 + number2
+function addTwoNum(...number1){
+    return number1
 }
 
-const res = addTwoNum(1, 9)
+const res = addTwoNum(1, 9, 4, 5, 6)
 // console.log(res);
 
 function loginUserMessage(username = "sam"){
@@ -25,4 +25,13 @@ function loginUserMessage(username = "sam"){
 
 // console.log("Sameer");
 const message = loginUserMessage("Sameer")
-console.log(message);
+// console.log(message);
+
+function handleObjects(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+handleObjects({
+    username: "Sameer",
+    price: 500
+})
